@@ -1,0 +1,47 @@
+/* Center the container and add a modern card-like look */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Style the heading */
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+/* Table styling for a clean layout */
+.subscriptions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.subscriptions-table th,
+.subscriptions-table td {
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+/* Header background and emphasis */
+.subscriptions-table th {
+  background-color: #f4f4f4;
+  font-weight: 600;
+}
+
+/* Zebra striping for readability */
+.subscriptions-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect to highlight rows */
+.subscriptions-table tbody tr:hover {
+  background-color: #eaeaea;
+}

@@ -1,0 +1,27 @@
+.thank-you-container {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin: 50px auto;
+  width: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.thank-you-container h2 {
+  color: #4CAF50;
+}
+
+.thank-you-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.thank-you-container button:hover {
+  background-color: #45a049;
+}
